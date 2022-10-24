@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion";   
 import Image from "next/image";
-import heroImg from "../images/icon/Tailwindcss.png";  
+import heroImg from "../images/icon/tailwindcss.png";  
 
 type Props = {
     directionLeft?: boolean;
