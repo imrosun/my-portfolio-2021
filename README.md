@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# my-portfolio-2021
+/* <<<<<<< HEAD
+# my-portfolio-2021 */
 This is my portfolio website source code made with typescript, tailwindcss, framer motion. It is hosted on netlify
 =======
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -36,4 +36,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
->>>>>>> 9638b9f (Initial commit from Create Next App)
+/* >>>>>>> 9638b9f (Initial commit from Create Next App) */
