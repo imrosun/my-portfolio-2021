@@ -1,6 +1,6 @@
 <!--- <<<<<<< HEAD
 # my-portfolio-2021 --->
-This is my portfolio website source code made with typescript, tailwindcss, framer motion. It is hosted on netlify
+This is my portfolio website source code made with typescript, tailwindcss, framer motion. It is hosted on Vercel
 =======
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
