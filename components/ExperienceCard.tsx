@@ -35,7 +35,7 @@ function ExperienceCard({}: Props) {
                 <Image className="rounded-full" src={heroImg3}/> 
                 <Image className="rounded-full" src={heroImg2}/>  
             </div> */}
-            <p>May-2021 Jan-2022</p>
+            <p>May-2021 April-2022</p>
             <ul className="list-disc space-y-1 ml-5 text-md ">
                 <li>Working as a part of the Android build tester team, taking care of user-reported queries, 
                     writing bugs.  </li>
