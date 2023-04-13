@@ -50,9 +50,10 @@ export default function Header({}: Props) {
             duration: 1.5,
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer">
+          <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Hire me</p>
             <SocialIcon className='cursor-pointer' network='email' fgColor='gray' bgColor='transparent'/>
             {/* md: medium screen, xl: extra large */}
-            <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Touch</p>
+            
         </motion.div>
         </Link>
     </header>
