@@ -24,15 +24,15 @@ function Skills (props: Props){
     initial={{opacity: 0}}
     whileInView={{ opacity: 1 }}
     transition= {{ duration: 1.5 }}
-    className="h-screen flex relative flex-col text-center md:text-left 
-    xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
+    className="h-screen relative flex flex-col text-center md:text-left 
+      max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center">
         <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
           Skills</h3>
 
-        <h3 className="absolute top-32 uppercase tracking-[3px] text-gray-500 text-sm">
+        <h3 className="uppercase tracking-[3px] pb-4 text-gray-500 text-sm">
             Hover over skill for current proficiency</h3>
 
-        <div className="absolute grid grid-cols-5 gap-5">
+        <div className="mt-4 grid grid-cols-3 sm:grid-cols-5 gap-10 sm:gap-5">
             <Skill/>
             <Skill1/>
             <Skill2/>

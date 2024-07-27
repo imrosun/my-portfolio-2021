@@ -35,11 +35,11 @@ function Projects({}: Props) {
     whileInView={{opacity:1}}
     transition={{duration:1.5}}
     className="h-screen relative flex overflow-hidden flex-col text-left 
-    md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-        <h3 className="absolute top-10 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Projects
+        md:flex-row max-w-full justify-center mx-auto items-center z-0">
+        <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+          Projects
         </h3>
-        <div className="relative w-full flex overflow-x-scroll overall-y-hidden snap-x snap-mandatory z-20
+        <div className="pt-24 relative w-full flex overflow-x-scroll overall-y-hidden snap-x snap-mandatory z-20
         scrollbar scrollbar-medium scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80"> 
         {/* z-20 for keeping that layer to top */}
         {/* {projects.map((project, i) => ( */}
