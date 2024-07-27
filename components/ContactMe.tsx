@@ -19,8 +19,8 @@ const onSubmit: SubmitHandler<Inputs> = formData =>{
 
   return (
     <div className="overflow-hidden h-screen flex flex-col relative text-center 
-        md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
-        <h3 className="absolute top-20 text-center uppercase tracking-[20px] text-gray-500 text-2xl">
+        md:text-left md:flex-row max-w-7xl md:justify-evenly justify-start mx-auto items-center">
+        <h3 className="md:absolute pt-16 md:pt-0 pb-10 md:pb-0 top-20 text-center uppercase tracking-[20px] text-gray-500 text-2xl">
             Contact
         </h3>
         <div className="relative sm:top-10 text-center items-center flex flex-col space-y-2">

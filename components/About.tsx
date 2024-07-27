@@ -12,12 +12,12 @@ export default function About({ }: Props) {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
-            className="overflow-hidden flex relative flex-col text-center md:text-left md:flex-row 
-                xl:flex-row max-w-7xl px-10 min-h-screen justify-evenly  mx-auto items-center">
-            <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
+            className="overflow-hidden flex md:relative flex-col text-center md:text-left md:flex-row 
+                xl:flex-row max-w-7xl md:px-10 px-4 min-h-screen  md:justify-center justify-start mx-auto items-center">
+            <h3 className="pt-20 md:pt-0 pb-2 md:pb-0 md:absolute top-20 uppercase tracking-[20px] text-gray-500 text-2xl">
                 About
             </h3>
-            <div className='md:w-3/4 flex flex-col sm:flex-row justify-between gap-5'>
+            <div className='md:w-3/4 flex flex-col sm:flex-row justify-between md:gap-5'>
                 <motion.div
                     initial={{
                         x: -200,
@@ -35,12 +35,12 @@ export default function About({ }: Props) {
                         priority src={heroImg} /* layout="responsive" objectFit='cover' */ alt="" />
                 </motion.div>
 
-                <div className="flex-1 items-center text-center space-y-5 ">
-                    <h4 className="text-4xl font-semibold md:text-left text-center">
+                <div className="flex-1 items-center text-center md:space-y-5 space-y-3 ">
+                    <h4 className="text-3xl font-semibold md:text-left text-center">
                         Here is a {" "}
                         <span className="underline decoration-[#F7AB0A]/50">little</span>{" "}background
                     </h4>
-                    <p className="md:text-left text-center text-base">
+                    <p className="md:text-left text-justify">
                         A dedicated full-stack developer with a strong foundation in both front-end and back-end development, possessing a proven
                         ability to design, develop, and deploy robust web applications. Committed to delivering high-quality, user-centric digital
                         experiences. <br></br>

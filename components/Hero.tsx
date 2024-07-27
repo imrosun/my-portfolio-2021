@@ -19,7 +19,7 @@ export default function Hero({}: Props) {
     return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center"> {/* overflow-hidden will adjust circle to more up*/}
         <BackgroundCircles/>
-        <div className="relative sm:h-32 sm:w-40 h-64 w-60 mx-auto object-cover"> {/* same as below rounded-full is not supported in div */}
+        <div className="relative sm:h-32 sm:w-40 h-60 w-60 mx-auto object-cover"> {/* same as below rounded-full is not supported in div */}
             <Image className="rounded-full"
             priority src={heroImg} /* layout="responsive" objectFit='cover' */ alt=""/>
         </div>

@@ -55,11 +55,10 @@ function ExperienceCard({ }: Props) {
                     Collaborated with cross-platform teams, delivering production-grade projects on time while meeting industry
                     standards. Facilitated regular feedback sessions to iteratively improve and align project outcomes.
                 </li>
-
+                <div className="hidden md:block">
                 <li>Integrated RESTful APIs, facilitating seamless communication between front-end and back-end systems and
                     enhancing overall application functionality.</li>
-
-                <div className="hidden md:block">
+                
                     <li>
                         Implemented a robust firewall security solution on AWS to safeguard the application, enhancing overall system
                         protection. Integrated AWS S3 buckets for managing and storing static assets.
